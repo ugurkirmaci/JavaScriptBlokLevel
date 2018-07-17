@@ -1,0 +1,85 @@
+﻿ide denirJavaScript 1: Giriş ve Basit bir Kod
+
+java JavaScript calisma yapisi
+
+istemci(kendi pc)--->  internet()--->Sunucu(web)html ile yazilmiş--->veri tabani
+
+*islemci tarafindaki işleme(client) side denir.
+*sunucu tarafindaki isleme (server) side denir.
+*<button> = form objesi denir.
+* button onclick='document.getElementById("mesaj").innerHTML="merhaba";'>Tıkla</button>
+<p id="mesaj"></p>
+
+//button onclick='document.getElementById("mesaj").innerHTML="merhaba";' anlamı-->
+bu domukantasyonun içinde id'si mesaj olan obje olarak kullanılır.
+
+Temeller Ve Yapısal Programlama 
+Örnek Kodlar
+Js4 - Canvas
+canvas : tuval anlamı vardır. Bir çizim alanı, boş beyaz alan oluşturulur.
+sadece size ayrılmış alan olarakta nitelendirilir.
+----------------------------------------------------------------------------------
+Full Steck Developer Egitim Notları 
+-->Bu öğrendiğim html teglerin tamamı <body></body> içine yazılır.
+-> <a href ="htps://www.google.com/">Link to google</a>
+//bu bir alan ve ling koymak için ettiribuit ekrana link bastırmak 
+kullanılan html tag ı da denebilir.
+-> <img src="bu kısmada resmi getireceğimiz resmin mail link adresi gelicek" alt="
+açıklama ex:futbul topu resmi gibi">
+->html 4 ile html5 in en büyük farkı html formatting bazı teglerin eski sürümüne 
+göre daha anlamlı hale gelmesi
+-><hr>//horizontal rine
+<h2>Formatting Elements</h2>
+<b>Bold Text</b>
+<strong>Important Text </strong>
+<i>Italic Text</i>
+<em>Emphasized Text</em>
+<mark>Marked Text</mark>
+<small>Small Text</small>
+<del>Deleted Text</del>
+<ins>Inserted Text</ins>
+<sub>Subscript Text</ins>
+<sup>Superscript Text</sup>
+------------------------------------------
+Konu: Alıntılar
+ex:<p>buraya istediğimiz metnin yazısını ekliyebiliriz.<q>burayada 
+gene aynı istediğimiz eklentiyi koyabilriz sadece başa tırnakla başlar</q></p>
+
+<blockquote cite="https://www.google.com/"istediğimiz sitenin aderesi getireceiğimiz
+paragraf adresi yada></blockquote>
+
+eyer paragraf içindeki bi kelimeye açıklama getireceksek eyer,
+<p>Lorem impus <abbr title="Lorem Ipsum Generator">dolar</abbr></p>
+-------------------------------
+Tablo Oluşturma
+<th>//anlamı table head</th>
+<td>//anlamı table data</th>
+---------------------------
+Listeler -->sıralanmış ve sıralanmamış liste diye 2 ye ayırıyoruz.
+----------------------------
+Block Level Elements-In Line Elements
+->block level element in mantığı herhangi bir paragragraftaki cümle
+bititğinde yeni alt satıra geçmek zorundasın ekstra bütün satırı 
+kaplaması gerekir.Eyer geçmemişse o block 
+satır element değil ,In Line Elements'dir.İn Line Element ise yan yana dizilen
+elementlerdir.
+---------------------------------
+iframe src="index.html" frameborder="0" height ="300" width="300"></iframe>-->
+bu komut yönledirdiğin herhangii bir adresi alıp kendi sitedende gösterme biçimidir.
+------------------------------------
+html'de Layout nedir?
+<header>
+<h1>Bu bir başlıktır</h1>
+</header>//bu bizim artık layout'umuz oluyor.
+eyer menü tanımlamak istersek <nav>
+<ul>
+    <li> <a> href ="#"></a> </li>
+</ul>
+</nav>
+-------------------------------------
+<placeholder="">--> komutu arka planda gözüken komut
+
+
+
+
+
